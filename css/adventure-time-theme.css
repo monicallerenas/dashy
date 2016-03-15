@@ -115,5 +115,46 @@ ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:fo
 	background: #ffffff;
 	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
+/*comienza buttons*/
+.botones{
+	background-color: #e0e0eb;
+}
+.basic{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	border: solid 3px #d0d0e1;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+/*comienza login*/
+.back{
+	background-color: #e0e0eb; 
+}
+.logeo{
+	width: 30%;
+	height: 100%;
+	background-color: white;
+	border: solid #d0d0e1 2px;
+	padding: 3%;
+	margin-top: -1%;
+	margin-left: 30%;
+	margin-bottom: 22%;
 
-
+}
+.box-agua{
+	width: 30%;
+	height: auto;
+	background-color: #80ffff;
+	text-align: center;
+	margin-left: 30%;
+}
+.cuenta{
+	text-align: center;
+}
+/*responsive*/
+@media screen and (max-width: 320px){
+	sidebar-menu{
+		display: none;
+	}
+}
